@@ -85,7 +85,7 @@ npm start
 
 ## Testing with Postman
 
-Download the sample Postman file for testing the APIs from [here](./postman_collection.json).
+Download the sample Postman file for testing the APIs from [here](https://github.com/bhaveshx05/lost-found-api/releases/download/postman/postman.json)
 
 ## Usage Examples
 
