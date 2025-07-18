@@ -83,6 +83,10 @@ npm run dev
 npm start
 ```
 
+## Testing with Postman
+
+Download the sample Postman file for testing the APIs from [here](./postman_collection.json).
+
 ## Usage Examples
 
 ### User Login
@@ -171,22 +175,3 @@ curl -X PUT http://localhost:3000/items/1 \
 ### Protected Routes
 - `PUT /items/:id` - Requires user authentication
 - `DELETE /items/:id` - Requires admin authentication
-
-## Error Handling
-
-The API returns appropriate HTTP status codes:
-- `200` - Success
-- `201` - Created
-- `400` - Bad Request
-- `401` - Unauthorized
-- `403` - Forbidden
-- `404` - Not Found
-- `500` - Internal Server Error
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
